@@ -1,0 +1,45 @@
+.h1-area{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navigation-bar{
+	text-align: center;
+	background-color: #bebebe;
+}
+
+.navigation-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navigation-bar li{
+	float: left;
+}
+
+.navigation-bar a:link,a:visited
+{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#bebebe;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.navigation-bar a:hover,a:active
+{
+	background-color: #CC0000;
+}
+
+.contents-list{
+	text-align: center;
+}
